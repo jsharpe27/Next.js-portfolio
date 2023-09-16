@@ -7,10 +7,15 @@ import Link from 'next/link'
 import { BsArrowRight, BsLinkedin } from 'react-icons/bs'
 import { HiDownload } from 'react-icons/hi'
 import { FaGithubSquare } from 'react-icons/fa'
+import { useSectionInView } from '@/lib/hooks'
 
 export default function Intro() {
+    const { ref } = useSectionInView('Home', 0.5)
+
   return (
-    <section className='mb-28 max-[50rem] text-center sm:mb-0'> 
+    <section
+        ref={ref}
+        id="home" className='mb-28 max-[50rem] text-center sm:mb-0 scroll-mt-[100rem]'> 
         <div className='flex items-center 
              justify-center'>
             <div className='relative'>
@@ -26,11 +31,11 @@ export default function Intro() {
                     <Image 
                         src="/mebungie.jpg" 
                         alt='a photo of Jordan Sharpe'
-                        width='192'
-                        height='192'
+                        width='172'
+                        height='172'
                         quality='95'
                         priority={true}
-                        className='h-24 w-24 rounded-full
+                        className='rounded-full
                         object-cover border-[0.35rem]
                         shadow-xl border-white'
                     />
@@ -40,7 +45,7 @@ export default function Intro() {
                 There is also a stiffness, delay, duration etc properties for the transition prop*/}
                 <motion.span className='absolute bottom-0 right-0
                                  text-4xl'
-                                 initial={{ opacity: 0, scale:0 }}
+                                initial={{ opacity: 0, scale:0 }}
                                 animate={{ opacity: 1, scale:1 }}
                                 transition={{
                                     type: "spring",
@@ -63,8 +68,8 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
         >
             <span className='font-bold'>Hi, I'm Jordan Sharpe.</span> I'm a{' '}
-            <span className='font-bold'>Front-end Developer</span> based in Montreal, Canada.
-            I enjoy building <span className='italic'>sites & apps</span>. My focus is{' '}
+            <span className='font-bold'>front-end developer</span> based in Montréal, Canada.
+            I love building <span className='italic'>clean and responsive sites & apps</span>. My focus is{' '}
             <span className='underline'>React (Next.js)</span>
         </motion.h1>
 
