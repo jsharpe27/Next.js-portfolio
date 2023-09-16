@@ -6,9 +6,10 @@ import { links } from '@/lib/data'
 import Link from 'next/link';
 
 export default function Header() {
-  // z=[999] is used to make sure the header is on top of everything else. Initial and animate props are used to animate the header when the page loads:
-  // y at -100 means the header is 100px above its original position, x at "-50%" means the header is 50% of its width to the left of its original position,
-  // and opacity at 0 means the header is invisible. When the page loads, the header will animate to its original position, and become visible.
+  /* z=[999] is used to make sure the header is on top of everything else. Initial and animate props are used to animate the header when the page loads:
+  y at -100 means the header is 100px above its original position, x at "-50%" means the header is 50% of its width to the left of its original position,
+   and opacity at 0 means the header is invisible. When the page loads, the header will animate to its original position, and become visible.*/
+   
   return <header className='z-[999] relative'>
         <motion.div className='fixed top-0 left-1/2 h-[4.5rem] w-full 
         rounded-none border border-white border-opacity-40 bg-white bg-opacity-80 

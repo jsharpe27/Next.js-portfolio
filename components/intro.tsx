@@ -14,6 +14,7 @@ export default function Intro() {
         <div className='flex items-center 
              justify-center'>
             <div className='relative'>
+                {/* The framer-motion props here control the image of me to make it start at 0(invisible) and then grow to normal scale(1) */}
                 <motion.div
                 initial={{ opacity: 0, scale:0 }}
                 animate={{ opacity: 1, scale:1 }}
@@ -22,18 +23,21 @@ export default function Intro() {
                     duration: 0.2,
                 }}
                 >
-                <Image 
-                    src="/mebungie.jpg" 
-                    alt='a photo of Jordan Sharpe'
-                    width='192'
-                    height='192'
-                    quality='95'
-                    priority={true}
-                    className='h-24 w-24 rounded-full
-                    object-cover border-[0.35rem]
-                    shadow-xl border-white'
-                />
+                    <Image 
+                        src="/mebungie.jpg" 
+                        alt='a photo of Jordan Sharpe'
+                        width='192'
+                        height='192'
+                        quality='95'
+                        priority={true}
+                        className='h-24 w-24 rounded-full
+                        object-cover border-[0.35rem]
+                        shadow-xl border-white'
+                    />
                 </motion.div>
+
+                {/* The framer-motion props here control the emoji to make it start at 0(invisible) and then grow to normal scale(1) 
+                There is also a stiffness, delay, duration etc properties for the transition prop*/}
                 <motion.span className='absolute bottom-0 right-0
                                  text-4xl'
                                  initial={{ opacity: 0, scale:0 }}
@@ -51,6 +55,8 @@ export default function Intro() {
 
             
         </div>
+
+          {/* The framer-motion props control the "sliding up" effect of the intro heading, both the position and opacity */}
         <motion.h1 className='mb-10 mt-4 px-4 text-2xl 
         font-medium !leading-[1.5] sm:text-4xl'
         initial={{ opacity: 0, y: 100 }}
@@ -61,6 +67,9 @@ export default function Intro() {
             I enjoy building <span className='italic'>sites & apps</span>. My focus is{' '}
             <span className='underline'>React (Next.js)</span>
         </motion.h1>
+
+        {/* The framer-motion props control the "sliding up" effect of the links, both the position and opacity
+        AND with a slight transtion: delay property so that the heading arrives "first" */}
         <motion.div className='flex flex-col sm:flex-row
             items-center justify-center gap-2 px-4
             text-lg font-medium'
@@ -70,7 +79,9 @@ export default function Intro() {
                 delay: 0.1,
             }}
             >
-
+            
+            {/* Link stuff. Pretty cool hover effects, and the Download Resume actually downloads the file.
+            We are import several icons from react-icons */}
             <Link href='#contact' 
                 className='group bg-gray-900 text-white px-7
                 py-3 flex items-center gap-2 rounded-full

@@ -3,6 +3,9 @@
 import { motion } from 'framer-motion'
 import React from 'react'
 
+//this is an empty div with height and width specified, and a rounded border. It is used to create a divider between sections.
+//The framer-motion props here control the divider to make it start at 0(invisible) and then grow to normal scale(1)
+
 export default function SectionDivider() {
   return (
     <motion.div className='bg-gray-200 my-24 h-16 w-1
