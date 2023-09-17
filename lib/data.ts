@@ -39,7 +39,7 @@ export const experiencesData = [
     location: "Montreal, Canada",
     description:
       "I worked as a front-line tech support and later in a part-time QA role, learning about software dev and testing and Agile methodologies.",
-      icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(CgWorkAlt),
     date: "2019 - 2023",
   },
   {
@@ -91,17 +91,7 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
 ] as const;
