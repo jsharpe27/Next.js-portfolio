@@ -42,17 +42,9 @@ export default function About() {
             and skateboard. I also like to read scienc-fiction and fantasy novels and enjoy many different genres of music.
             I live near the St. Laurence river and care for two cats named Bungee and Percy.
         </p>
-        <Image 
-            src="/mebungie.jpg" 
-            alt='a photo of Jordan Sharpe'
-            width='192'
-            height='192'
-            quality='95'
-            priority={true}
-            className='h-124 w-124 rounded-full
-            object-cover border-[0.35rem]
-            shadow-xl border-white'
-          />
+        <div className='h-[8.5rem] w-full'>
+
+        </div>
     </motion.section>
   )
 }
