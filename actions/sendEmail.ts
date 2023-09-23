@@ -22,7 +22,7 @@ export const sendEmail = async (formData: FormData) => {
             error: "invalid message"
         }   
    }
-   
+
    let data
    try {
     await resend.emails.send({
