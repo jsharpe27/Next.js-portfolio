@@ -3,8 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import pokemonteambuilder from "@/public/pokemonteambuilder.png";
-import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import storyTracker from "@/public/storyTracker.png";
 
 export const links = [
   {
@@ -71,9 +71,9 @@ export const projectsData = [
   {
     title: "Short Story Submission Tracker",
     description:
-      "An App I designed for writers to keep track of their submitted work.",
+      "An App I designed for writers to track their work, integrated with Firebase for authentication and storage.",
     tags: ["React", "Tailwind", "Firebase", "Framer Motion"],
-    imageUrl: rmtdevImg,
+    imageUrl: storyTracker,
   },
   {
     title: "Word Analytics",

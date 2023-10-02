@@ -33,13 +33,13 @@ export default function About() {
             React/Next.js
             </span>
             {" "} and I am always on the look out for new technologies to learn. Lately I've been digging into 
-            Typescript, Prisma, and Redux. I am currently searching for a{" "}
+            Typescript, Firebase, and Redux. I am currently searching for a{" "}
             <span className="font-medium">full-time position</span> as a front-end developer.
         </p>
 
         <p>
             <span className="italic">When I'm not coding</span>, I write <span className="font-medium">fiction</span>, rock climb, 
-            and skateboard. I also like to read scienc-fiction and fantasy novels and enjoy many different genres of music.
+            and skateboard. I also like to read sci-fi and fantasy novels and enjoy many different genres of music.
             I live near the St. Laurence river and care for two cats named Bungee and Percy.
         </p>
         <div className='h-[8.5rem] w-full'>
