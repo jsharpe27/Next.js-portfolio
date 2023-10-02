@@ -13,14 +13,14 @@ export default function About() {
     <motion.section
       ref={ref} 
       className='mb-28 max-w-[45rem]
-      text-center leading-8 sm:mb-40 scroll-mt-28'
+      text-center leading-8 sm:mb-5 scroll-mt-28'
       initial={{ opacity: 0, y: 100}}
       animate={{ opacity: 1, y: 0}}
       transition={{delay: 0.175}}
       id={"about"}
     >
         <SectionHeading>About me</SectionHeading>
-        <p className='mb-3'>
+        <p>
             After graduating with a degree in{" "}
             <span className="font-medium">English Literature</span>, I discovered a
             passion for IT. I enrolled computer networking program, and a few years 
@@ -42,9 +42,6 @@ export default function About() {
             and skateboard. I also like to read sci-fi and fantasy novels and enjoy many different genres of music.
             I live near the St. Laurence river and care for two cats named Bungee and Percy.
         </p>
-        <div className='h-[8.5rem] w-full'>
-
-        </div>
     </motion.section>
   )
 }
