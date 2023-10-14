@@ -64,7 +64,7 @@ export default function Intro() {
         </div>
 
           {/* The framer-motion props control the "sliding up" effect of the intro heading, both the position and opacity */}
-        <motion.h1 className='mb-10 mt-4 px-4 text-2xl 
+        <motion.h1 className='mb-10 px-4 text-2xl 
         font-medium !leading-[1.5] sm:text-4xl mt-[5rem]'
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
