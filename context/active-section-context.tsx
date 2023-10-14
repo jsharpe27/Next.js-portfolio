@@ -5,7 +5,7 @@ import { useState, createContext } from 'react'
 import type { SectionName } from '@/lib/types'
 
 
-{/* Alll of this is to useContext in a separate file and the type lines and specifix to typescript
+{/* Alll of this is to useContext in a separate file and the type lines and specific to typescript
     We wrap the components that need our activeSection state with this ActiveSectionContext provider.
     furthermore, the way you "consume" the state inside the components that need it is to create
     a custom "hook" like we did at the bottom with useActiveSectionContext, passing it into the

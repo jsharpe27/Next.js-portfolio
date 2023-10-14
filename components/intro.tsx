@@ -65,12 +65,12 @@ export default function Intro() {
 
           {/* The framer-motion props control the "sliding up" effect of the intro heading, both the position and opacity */}
         <motion.h1 className='mb-10 mt-4 px-4 text-2xl 
-        font-medium !leading-[1.5] sm:text-4xl'
+        font-medium !leading-[1.5] sm:text-4xl mt-[5rem]'
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         >
             <span className='font-bold'>Hi, I'm Jordan Sharpe.</span> I'm a{' '}
-            <span className='font-bold'>front-end developer</span> based in Montréal, Canada.
+            <span className='font-bold'>web developer</span> based in Montréal, Canada.
             I love building <span className='italic'>clean and responsive sites & apps</span>. My focus is{' '}
             <span className='underline'>React (Next.js)</span>
         </motion.h1>
@@ -79,7 +79,7 @@ export default function Intro() {
         AND with a slight transtion: delay property so that the heading arrives "first" */}
         <motion.div className='flex flex-col sm:flex-row
             items-center justify-center gap-2 px-4
-            text-lg font-medium'
+            text-lg font-medium mt-[5rem]'
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{
@@ -108,7 +108,7 @@ export default function Intro() {
             py-3 flex items-center gap-2 rounded-full
             outline-none focus:scale-110 hover:scale-110
             active:scale-105 transition cursor-pointer
-            borderBlack'
+            borderBlack dark:bg-white/10 dark:text-white/60'
             href="/JordanSharpeResume.pdf" download>
                 Download Resume <HiDownload 
                 className='opacity-60 
@@ -120,7 +120,7 @@ export default function Intro() {
             items-center gap-2 rounded-full text-gray-700
             focus:scale-[1.15] hover:scale-[1.15]
             active:scale-105 transition cursor-pointer
-            borderBlack hover:text-gray-950'
+            borderBlack hover:text-gray-950 dark:bg-white/10 dark:text-white/60'
             href="https://www.linkedin.com/in/jordan-sharpe-ba949259/" target="_blank">
                 <BsLinkedin />
             </a>
@@ -128,7 +128,7 @@ export default function Intro() {
             items-center gap-2 rounded-full text-gray-700
             focus:scale-[1.15] hover:scale-[1.15]
             active:scale-105 transition cursor-pointer
-            borderBlack hover:text-gray-950'
+            borderBlack hover:text-gray-950 dark:bg-white/10 dark:text-white/60'
             href="https://github.com/jsharpe27" target="_blank">
                 <FaGithubSquare />
             </a>
