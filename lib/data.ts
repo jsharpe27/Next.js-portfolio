@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import pokemonteambuilder from "@/public/pokemonteambuilder.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import TTIOT from "@/public/TTIOT.png";
 import storyTracker from "@/public/storyTracker.png";
 
 export const links = [
@@ -76,11 +76,11 @@ export const projectsData = [
     imageUrl: storyTracker,
   },
   {
-    title: "Word Analytics",
+    title: "TTIOT - The Truth Is Out There",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A news and discussion website for extraterrestrial enthusiasts. Registered and annoymous users can post and comment on articles.",
+    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer Motion"],
+    imageUrl: TTIOT,
   },
 ] as const;
 
