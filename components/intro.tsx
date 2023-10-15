@@ -39,7 +39,7 @@ export default function Intro() {
                         priority={true}
                         className='rounded-full
                         object-cover border-[0.35rem]
-                        shadow-xl border-white'
+                        shadow-xl border-white mt-[4rem]'
                     />
                 </motion.div>
 
@@ -65,7 +65,7 @@ export default function Intro() {
 
           {/* The framer-motion props control the "sliding up" effect of the intro heading, both the position and opacity */}
         <motion.h1 className='mb-10 px-4 text-2xl 
-        font-medium !leading-[1.5] sm:text-4xl mt-[5rem]'
+        font-medium !leading-[1.5] sm:text-4xl mt-[7rem]'
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         >
