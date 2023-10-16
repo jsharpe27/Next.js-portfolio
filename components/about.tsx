@@ -23,7 +23,7 @@ export default function About() {
         <p>
             After graduating with a degree in{" "}
             <span className="font-medium">English Literature</span>, I discovered a
-            passion for IT. I enrolled computer networking program, and a few years 
+            passion for IT. I enrolled in a computer networking program, and a few years 
             later, started a bootcamp in{" "}<span className="font-medium">front-end web development</span>.{" "}
             <span className="italic">What I enjoy the most about programming</span> is the
             problem-solving. I <span className="underline">love</span> the
