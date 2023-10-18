@@ -109,7 +109,7 @@ export default function Intro() {
             outline-none focus:scale-110 hover:scale-110
             active:scale-105 transition cursor-pointer
             borderBlack dark:bg-white/10 dark:text-white/60'
-            href="/JordanSharpeResume.pdf" download>
+            href="/Resume_JordanSharpe.pdf" download>
                 Download Resume <HiDownload 
                 className='opacity-60 
                 group-hover:translate-y-1 transition'/>
