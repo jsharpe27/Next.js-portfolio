@@ -51,10 +51,10 @@ export const experiencesData = [
     date: "2023",
   },
   {
-    title: "Freelance Front-End Developer",
-    location: "Montreal, Canada",
+    title: "QA web tester",
+    location: "Montréal, Canada",
     description:
-      "I'm now a front-end developer. My stack includes React, Next.js, TypeScript, Tailwind, and I'm learning MongoDB. I'm open to full-time opportunities.",
+      "I'm a QA web tester. My skillset includes: Cypress, Postman, and manual testing. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
     date: "2023 - present",
   },
@@ -88,6 +88,8 @@ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
+  "Cypress",
+  "Postman",
   "TypeScript",
   "React",
   "Next.js",

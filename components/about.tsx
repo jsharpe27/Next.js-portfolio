@@ -23,24 +23,11 @@ export default function About() {
         <p>
             After graduating with a degree in{" "}
             <span className="font-medium">English Literature</span>, I discovered a
-            passion for IT. I enrolled in a computer networking program, and a few years 
-            later, started a bootcamp in{" "}<span className="font-medium">front-end web development</span>.{" "}
-            <span className="italic">What I enjoy the most about programming</span> is the
-            problem-solving. I <span className="underline">love</span> the
-            feeling of finally unlocking a solution. My core stack
-            is{" "}
-            <span className="font-medium">
-            React/Next.js
-            </span>
-            {" "} and I am always on the look out for new technologies to learn. Lately I've been digging into 
-            Typescript, Firebase, and Redux. I am currently searching for a{" "}
-            <span className="font-medium">full-time position</span> as a front-end developer.
-        </p>
-
-        <p>
-            <span className="italic">When I'm not coding</span>, I write <span className="font-medium">fiction</span>, rock climb, 
-            and skateboard. I also like to read sci-fi and fantasy novels and enjoy many different genres of music.
-            I live near the St. Laurence river and care for two cats named Bungee and Percy.
+            passion for IT and enrolled in a computer networking program. A few years 
+            later while working as a Techincal Support Analyst, I began manually testing my company's web app. This sparked an interest a hobby interest web development
+            and I've been growing my QA skills through coding on the side.{" "}
+            <span className="italic">What I enjoy the most about working as part of a developer team</span> is the
+            problem-solving. 
         </p>
     </motion.section>
   )
