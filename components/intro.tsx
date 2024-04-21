@@ -66,13 +66,12 @@ export default function Intro() {
           {/* The framer-motion props control the "sliding up" effect of the intro heading, both the position and opacity */}
         <motion.h1 className='mb-10 px-4 text-2xl 
         font-medium !leading-[1.5] sm:text-4xl mt-[7rem] first-letter:'
-        initial={{ opacity: 0, y: 101 }}
-        animate={{ opacity: 1, y: 0 }}
-        >
-            <span className='font-bold'>Hi, I'm Jordan Sharpe.</span> I'm a{' '}
-            <span className='font-bold'>web developer</span> based in Montréal, Canada.
-            I love building <span className='italic'>clean and responsive sites & apps</span>. My focus is{' '}
-            <span className='underline'>React (Next.js)</span>
+            initial={{ opacity: 0, y: 101 }}
+            animate={{ opacity: 1, y: 0 }}
+            >
+                <span className='font-bold'>Hi, I'm Jordan Sharpe.</span> I'm a{' '}
+                <span className='font-bold text-6xl underline'>QA web tester</span> based in Montréal, Canada.
+                I love testing sites & apps for <span className='italic text-4xl'>speed & efficiency</span>.
         </motion.h1>
 
         {/* The framer-motion props control the "sliding up" effect of the links, both the position and opacity
@@ -106,7 +105,7 @@ export default function Intro() {
 
             <a className='group bg-white text-gray-900 px-7
             py-3 flex items-center gap-2 rounded-full
-            outline-none focus:scale-110 hover:scale-110
+            outline-none focus:scale-110 hover:scale-105
             active:scale-105 transition cursor-pointer
             borderBlack dark:bg-white/10 dark:text-white/60'
             href="/Resume_JordanSharpe.pdf" download>

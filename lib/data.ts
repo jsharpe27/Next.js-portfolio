@@ -16,10 +16,6 @@ export const links = [
     hash: "#about",
   },
   {
-    name: "Projects",
-    hash: "#projects",
-  },
-  {
     name: "Skills",
     hash: "#skills",
   },
@@ -51,36 +47,12 @@ export const experiencesData = [
     date: "2023",
   },
   {
-    title: "Freelance Front-End Developer",
-    location: "Montreal, Canada",
+    title: "QA web tester",
+    location: "Montréal, Canada",
     description:
-      "I'm now a front-end developer. My stack includes React, Next.js, TypeScript, Tailwind, and I'm learning MongoDB. I'm open to full-time opportunities.",
+      "I'm a QA web tester. My skillset includes: Cypress, Postman, and manual testing. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
     date: "2023 - present",
-  },
-] as const;
-
-export const projectsData = [
-  {
-    title: "PokeMon Team Builder app",
-    description:
-      "Honed my basic React skills by creating an app which uses the PokeAPI.",
-    tags: ["React", "Tailwind", "Framer Motion"],
-    imageUrl: pokemonteambuilder,
-  },
-  {
-    title: "Short Story Submission Tracker",
-    description:
-      "An App I designed for writers to track their work, integrated with Firebase for authentication and storage.",
-    tags: ["React", "Tailwind", "Firebase", "Framer Motion"],
-    imageUrl: storyTracker,
-  },
-  {
-    title: "TTIOT - The Truth Is Out There",
-    description:
-      "A news and discussion website for extraterrestrial enthusiasts. Registered and annoymous users can post and comment on articles.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer Motion"],
-    imageUrl: TTIOT,
   },
 ] as const;
 
@@ -88,6 +60,8 @@ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
+  "Cypress",
+  "Postman",
   "TypeScript",
   "React",
   "Next.js",
