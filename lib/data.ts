@@ -56,30 +56,6 @@ export const experiencesData = [
   },
 ] as const;
 
-export const projectsData = [
-  {
-    title: "PokeMon Team Builder app",
-    description:
-      "Honed my basic React skills by creating an app which uses the PokeAPI.",
-    tags: ["React", "Tailwind", "Framer Motion"],
-    imageUrl: pokemonteambuilder,
-  },
-  {
-    title: "Short Story Submission Tracker",
-    description:
-      "An App I designed for writers to track their work, integrated with Firebase for authentication and storage.",
-    tags: ["React", "Tailwind", "Firebase", "Framer Motion"],
-    imageUrl: storyTracker,
-  },
-  {
-    title: "TTIOT - The Truth Is Out There",
-    description:
-      "A news and discussion website for extraterrestrial enthusiasts. Registered and annoymous users can post and comment on articles.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer Motion"],
-    imageUrl: TTIOT,
-  },
-] as const;
-
 export const skillsData = [
   "HTML",
   "CSS",
