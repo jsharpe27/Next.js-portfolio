@@ -24,8 +24,8 @@ export default function About() {
             After graduating with a degree in{" "}
             <span className="font-medium">English Literature</span>, I discovered a
             passion for IT and enrolled in a computer networking program. A few years 
-            later while working as a Techincal Support Analyst, I began manually testing my company's web app and this sparked a hobby interest in web development.
-            which has let me grow my QA skills through coding.{" "}
+            later while working as a Techincal Support Analyst, I began manually testing my company's web app and this sparked a hobby interest in web development 
+            which has grown my QA skills.{" "}
             <span className="italic">What I enjoy the most about working as part of a developer team</span> is the
             problem-solving. 
         </p>
